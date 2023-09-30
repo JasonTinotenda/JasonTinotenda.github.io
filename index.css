@@ -86,19 +86,17 @@ body {
     padding: 10px;
   }
   img {
-    transition: transform .5s ease;
+    float:initial;
+    height:350px;width:350px;                                      
   }
-  
-  img:hover {
-    transform: scale(1.5);
-  }
-  
   
   section {
     border: 1px solid #000;
     padding: 10px;
   }
-  .tar-and-paving{
+  .tar-and-paving,
+  .landscaping,
+  .building{
     display: flexbox;
 
     background-image: linear-gradient( rgba(4, 9, 30, 0.963), rgba(4, 9, 30, 0.925)), url(images/background02.jpg);
@@ -112,30 +110,6 @@ body {
     color: #fff;
     font: 1em poppins;
 
-  }
-  .building{
-    background-image: linear-gradient( rgba(4, 9, 30, 0.963), rgba(4, 9, 30, 0.925)), url(images/background02.jpg);
-    min-height: 100vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    background-blend-mode: darken;
-    text-align: center;
-    color: #fff;
-    font: 1em poppins;
-  }
-  .landscaping{
-    background-image: linear-gradient( rgba(4, 9, 30, 0.963), rgba(4, 9, 30, 0.925)), url(images/background02.jpg);
-    min-height: 100vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    background-blend-mode: darken;
-    text-align: center;
-    color: #fff;
-    font: 1em poppins;
   }
   
   @media screen and (max-width: 600px) {
