@@ -16,7 +16,13 @@ body {
   .logo img {
     height: 100%;
     float: right;
+    display: flex;
     position: relative;
+}
+.preview{
+  display: flex;
+  flex-wrap: wrap;
+
 }
   .home{
     background-image: linear-gradient( rgba(4, 9, 30, 0.963), rgba(4, 9, 30, 0.925)), url(images/background02.jpg);
@@ -93,6 +99,8 @@ body {
     padding: 10px;
   }
   .tar-and-paving{
+    display: flexbox;
+
     background-image: linear-gradient( rgba(4, 9, 30, 0.963), rgba(4, 9, 30, 0.925)), url(images/background02.jpg);
     min-height: 100vh;
     width: 100%;
