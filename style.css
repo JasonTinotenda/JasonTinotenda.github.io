@@ -179,8 +179,8 @@ section {
   margin: auto 0;
 }
 #profile-pic {
-  border-radius: 3rem;
-  width: 400px;
+  border-radius: 13rem;
+  width: auto;
   height: auto;
 }
 
